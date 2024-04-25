@@ -196,7 +196,7 @@ if(isset($_SESSION['login'])){
       <label for="floatingPassword">Password</label>
     </div>
     <div class="form-floating">
-      <input type="text" name="umur" class="form-control" id="floatinginput" placeholder="umur">
+      <input type="text" name="umur" class="form-control" id="floatingumur" placeholder="umur">
       <label for="floatinginput">umur</label>
     </div>
     <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
@@ -204,6 +204,5 @@ if(isset($_SESSION['login'])){
   </form>
 </main>
 <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-    </body>
+     </body>
 </html>
